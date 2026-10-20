@@ -13,6 +13,10 @@ CoSUN studies distributed motion planning for robots with different body shapes 
 
 The method unfolds sequential convex programming (SCP) and the alternating direction method of multipliers (ADMM) into fixed-depth optimization layers for model predictive control (MPC). These layers preserve interpretable optimization states and support GPU batch execution. Offline learning adjusts three shared solver scales for the prescribed iteration budget. The accompanying simulations use 10–30 differential-drive robots with polygonal bodies and randomized start and goal configurations.
 
+## Simulation Platform
+
+The CoSUN implementation and simulation experiments are built on [IR-SIM](https://github.com/hanruihua/ir-sim), an open-source robot simulation platform.
+
 ## Experimental Data
 
 The three CSV files are provided unchanged from the original experiment outputs.
